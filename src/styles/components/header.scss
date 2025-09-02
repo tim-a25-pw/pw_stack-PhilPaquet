@@ -1,0 +1,37 @@
+/* ==========================================================================
+   header / 
+   ========================================================================== */
+
+.header {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header__logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            color: var(--color-primary);
+            font-family: var(--font-primary);
+            font-size: var(--font-size-logo);
+            font-weight: 700;
+            span {
+                color: var(--color-logo);
+            }
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 50px;
+            font-family: var(--font-tertiary);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: var(--font-size-nav);
+            color: var(--color-black);
+        }
+    }
+}
