@@ -1,0 +1,9 @@
+.button {
+    color: var(--color-primary);
+    font-family: var(--font-primary);
+    border: solid 4px var(--color-primary);
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 10px 30px;
+    text-transform: uppercase;
+}

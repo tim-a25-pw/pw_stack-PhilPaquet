@@ -1,5 +1,5 @@
 /* ==========================================================================
-   header / 
+   header / components
    ========================================================================== */
 
 .header {
@@ -7,6 +7,8 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        padding: var(--spacing-xs) 0;
 
         .header__logo {
             display: flex;
