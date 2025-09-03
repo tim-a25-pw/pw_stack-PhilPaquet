@@ -28,8 +28,12 @@
 @import 'elements/wrapper';
 
 // COMPONENTS
+
+@import '../../node_modules/swiper/swiper-bundle';
+
 @import 'components/athletes';
 @import 'components/button';
+@import 'components/carousel';
 @import 'components/header';
 @import 'components/hero';
 @import 'components/icons';
