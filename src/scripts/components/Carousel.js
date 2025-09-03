@@ -7,5 +7,7 @@ export default class Carousel {
     this.init();
   }
 
-  init() {}
+  init() {
+    const swiper = new Swiper(this.element, this.options);
+  }
 }
