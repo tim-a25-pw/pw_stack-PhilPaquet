@@ -3,4 +3,40 @@
    ========================================================================== */
 
 .carousel {
+    .swiper-slide {
+        max-height: 550px;
+        img {
+            object-fit: cover;
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .swiper-wrapper {
+        position: relative;
+    }
+    .swiper-pagination {
+        position: absolute;
+        height: fit-content;
+        //width: fit-content;
+        top: 40%;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        gap: var(--spacing-xs);
+        padding-right: 50px;
+
+        //transform: rotate(90deg);
+
+        .swiper-pagination-bullet {
+            width: 35px;
+            height: 35px;
+            display: block;
+            background-color: var(--color-logo);
+            opacity: 1;
+        }
+        .swiper-pagination-bullet-active {
+            background-color: var(--color-primary);
+        }
+    }
 }
